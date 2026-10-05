@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Radiology-Anki個人用Google Drive連携のプライバシーポリシー。アクセスするデータ、利用目的、保存・送信、削除方法を説明します。">
+  <title>プライバシーポリシー | Radiology-Anki</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Radiology-Anki</a><nav aria-label="メイン"><a href="./">ホーム</a></nav></header>
+  <main>
+    <p class="eyebrow">Google Drive連携</p>
+    <h1>プライバシーポリシー</h1>
+    <p class="updated">制定・最終更新：2026年10月5日</p>
+    <p class="lead">このポリシーは、Radiology-Ankiで使用する個人用Google Drive連携アプリに適用されます。運営者はGitHubアカウントYusukeKawasakiです。</p>
+    <section><h2>1. アクセスするデータ</h2>
+      <p>利用者のGoogleによる認可に基づき、Google Driveのファイル・フォルダ情報（名前、識別子、階層、サイズ、更新日時など）と、学習用に指定したPDF・画像などのファイル内容へアクセスします。認可された範囲でアクセスできるファイルのうち、学習ワークフローで指定したデータを使用します。</p>
+      <p>継続的なファイル取得のため、Googleが発行するOAuthのアクセストークンおよびrefresh tokenを保持します。Googleアカウントのパスワードは取得しません。</p>
+    </section>
+    <section><h2>2. 利用目的</h2>
+      <p>指定した学習資料・画像の取得、画像の整合性確認、学習カードの作成・管理・配信、およびそれらの障害調査に利用します。Google Driveのデータを広告配信、販売、第三者向けの利用者分析に使用しません。</p>
+    </section>
+    <section><h2>3. 保存先と保護</h2>
+      <p>取得した資料・画像、キャッシュ、認証情報、処理記録は、利用者が管理するPCまたはサーバーに保存します。学習カードと使用画像はAnkiのコレクションにも保存されます。</p>
+      <p>認証情報はアクセスを制限した設定ファイルで管理し、公開リポジトリやこの案内サイトには掲載しません。処理記録にはファイル名、識別子、整合性確認用ハッシュなどが含まれることがあります。</p>
+    </section>
+    <section><h2>4. 外部サービスへの送信</h2>
+      <p>Google Driveへのアクセス・認証ではGoogleと通信します。AnkiWeb同期が有効な場合、カード内容と使用画像は利用者のAnkiWebアカウントへ送信されます。GitHubを使用する学習ワークフローでは、カード内容、資料の識別情報、配信・レビューの記録が利用者の管理するリポジトリに保存されることがあります。</p>
+      <p>このDrive連携自体は、取得したデータを汎用AIモデルの学習目的で送信しません。利用者が別途AI支援によるカード作成・レビューなどの外部サービスを使用する場合は、その利用者の操作・設定と、各サービスのデータ取り扱い条件に従います。</p>
+      <p>データを第三者へ販売しません。Google APIから受領した情報の利用および他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>（Limited Use要件を含む）に従います。</p>
+    </section>
+    <section><h2>5. 保存期間と削除</h2>
+      <p>学習に必要な間、または利用者が削除するまで保存します。利用者は、管理する環境の資料・画像・キャッシュ・認証設定を削除できます。配信済みカードと画像、GitHub上の記録、バックアップについては、それぞれの保存先でも削除が必要です。Git履歴に保存された情報は、現在のファイルを削除するだけでは履歴から消えない場合があります。</p>
+    </section>
+    <section><h2>6. アクセスの解除</h2>
+      <p><a href="https://myaccount.google.com/connections">Googleアカウントのサードパーティ接続</a>から、この連携アプリへのアクセスを解除できます。解除後は新しいDriveアクセスができなくなります。アクセスの解除だけでは、既に保存した資料、カード、画像や記録は削除されません。</p>
+    </section>
+    <section><h2>7. この案内サイト</h2>
+      <p>このサイトはGitHub Pagesで配信する静的な案内ページです。独自の広告、アクセス解析、入力フォームは設置していません。ホスティングに伴うアクセス情報の扱いは、<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシー声明</a>を参照してください。</p>
+    </section>
+    <section><h2>8. お問い合わせと変更</h2>
+      <p>このポリシーやデータの取り扱いについては、<a href="https://github.com/YusukeKawasaki/radiology-anki-oauth-pages/issues">公開案内リポジトリのIssues</a>からお問い合わせください。取り扱いを変更した場合、このページと最終更新日を更新します。</p>
+    </section>
+    <section lang="en"><h2>Privacy policy summary</h2>
+      <p>This policy covers the personal Google Drive integration used by Radiology-Anki, operated by GitHub user YusukeKawasaki. With the user's authorization, the integration accesses Drive file metadata and selected study documents/images, and stores OAuth tokens for continued access. It does not collect Google account passwords.</p>
+      <p>Data is used to retrieve and verify study media, create and manage learning cards, and troubleshoot the workflow. Files, tokens and logs are stored in the user's controlled environment. Cards/images may be synced to the user's AnkiWeb account; card content and workflow records may be stored in the user's GitHub repositories. This integration does not sell data, use it for advertising, or send it for general-purpose AI model training. Separate AI-assisted workflows, if used by the user, follow their own settings and service terms.</p>
+      <p>Use and transfer of information received from Google APIs adhere to the Google API Services User Data Policy, including Limited Use requirements. Data is retained while needed for study or until deleted by the user. Access can be revoked through Google Account connections; previously stored copies, synced cards, repository history and backups must be deleted separately. Contact is available through the linked GitHub Issues page.</p>
+    </section>
+  </main>
+  <footer><a href="./">ホームへ戻る</a><span>Radiology-Anki · Privacy policy</span></footer>
+</body>
+</html>

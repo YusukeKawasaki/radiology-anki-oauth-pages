@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Radiology-Ankiの個人用Google Drive連携アプリについて。用途とプライバシーポリシーを説明します。">
+  <title>Radiology-Anki | Google Drive連携</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Radiology-Anki</a><nav aria-label="メイン"><a href="privacy.html">プライバシーポリシー</a></nav></header>
+  <main>
+    <p class="eyebrow">個人用の学習支援ツール / Personal study tool</p>
+    <h1>Google Driveの学習資料を、<br>Radiology-Ankiの学習に。</h1>
+    <p class="lead">Radiology-Ankiは、放射線医学の学習カードをAnkiで管理する個人用のツールです。このGoogle Drive連携では、利用者が指定した学習資料や画像を取得し、学習カードの作成・配信に利用します。</p>
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">連携の用途</h2>
+      <p>ファイルの取得にはrcloneを使用します。許可されたGoogle Drive上のファイル名・フォルダ情報・ファイル内容にアクセスし、指定した学習用ファイルを利用者が管理する環境へ保存します。</p>
+      <p>学習カードと画像はAnkiで使用します。AnkiWeb同期を有効にしている場合は、カードと画像がAnkiWebにも保存されます。カード内容や配信・レビューの記録は、学習ワークフローのGitHubリポジトリで管理することがあります。</p>
+    </section>
+    <section aria-labelledby="audience">
+      <h2 id="audience">利用対象</h2>
+      <p>運営者本人の学習に使うためのアプリです。一般向けのアカウント登録やファイル共有サービスは提供していません。GoogleやAnkiの公式アプリではありません。</p>
+    </section>
+    <section class="panel" aria-labelledby="privacy">
+      <h2 id="privacy">データの取り扱い</h2>
+      <p>Google Driveへのアクセス目的、保存先、外部サービスへの送信、アクセス解除・削除方法は、プライバシーポリシーに記載しています。</p>
+      <a class="button" href="privacy.html">プライバシーポリシーを読む</a>
+    </section>
+    <section aria-labelledby="contact">
+      <h2 id="contact">運営・お問い合わせ</h2>
+      <p>運営者：GitHubアカウント <a href="https://github.com/YusukeKawasaki">YusukeKawasaki</a></p>
+      <p>この連携に関する問い合わせは、<a href="https://github.com/YusukeKawasaki/radiology-anki-oauth-pages/issues">公開案内リポジトリのIssues</a>で受け付けます。</p>
+    </section>
+    <section lang="en" aria-labelledby="english">
+      <h2 id="english">About this app</h2>
+      <p>Radiology-Anki is a personal radiology study tool. Its Google Drive integration uses rclone to retrieve selected study files and images into the user's own environment. Learning cards and images are used in Anki and may be synced to AnkiWeb. Card content and workflow records may be managed in GitHub. This app is for the operator's personal use, and is not an official Google or Anki product.</p>
+    </section>
+  </main>
+  <footer><span>Radiology-Anki · 個人用Google Drive連携</span><a href="privacy.html">プライバシーポリシー</a></footer>
+</body>
+</html>
